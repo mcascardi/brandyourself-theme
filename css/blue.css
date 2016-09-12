@@ -1,0 +1,59 @@
+html {
+	font-family: Arial;
+	background-color: #6dbbff;
+	background-image: linear-gradient(left , #338bff 0%, #338bff 20%, #6dbbff 50%, #338bff 80%, #338bff 100%);
+	background-image: -o-linear-gradient(left , #338bff 0%, #338bff 20%, #6dbbff 50%, #338bff 80%, #338bff 100%);
+	background-image: -moz-linear-gradient(left , #338bff 0%, #338bff 20%, #6dbbff 50%, #338bff 80%, #338bff 100%);
+	background-image: -webkit-linear-gradient(left , #338bff 0%, #338bff 20%, #6dbbff 50%, #338bff 80%, #338bff 100%);
+	background-image: -ms-linear-gradient(left , #338bff 0%, #338bff 20%, #6dbbff 50%, #338bff 80%, #338bff 100%);
+	background-image: -webkit-gradient(linear, left top, right top, color-stop(0, #338bff), color-stop(0.2, #338bff), color-stop(0.5, #6dbbff), color-stop(0.8, #6dbbff), color-stop(1, #338bff));
+}
+
+#topAd > a, #bottomAd > a {
+	color: #4da7ff;
+}
+
+#nav > li > a, #footer a, #footer p, #footer li {
+	color: #4da7ff;
+}
+
+#nav > li.current > a {
+	background-color: #0a81fb;
+}
+
+#footer p, #footer li {
+	color: #4da7ff;
+}
+
+#sideBarInfo, #sideBarInfo a {
+	color: #fff;
+}
+
+.mainContent > h4 {
+	color: #0a81fb;
+}
+
+
+/* ------- ABOUT ME PAGE ------- */
+#about > h1, #experience > h2, #education > h2, #interests > h2 {
+	color: #353535;
+}
+
+/* ------- LINKS PAGE ------- */
+.box > a, #linksOther > ul > li > a {
+	color: #0a81fb;
+}
+
+/* ------- SOCIAL STREAM PAGE -------*/
+#streamFilters > ul > li.active > a {
+	background-image: linear-gradient(top , #6fa9ff 0%, #287bf7 100%);
+	background-image: -o-linear-gradient(top , #6fa9ff 0%, #287bf7 100%);
+	background-image: -moz-linear-gradient(top , #6fa9ff 0%, #287bf7 100%);
+	background-image: -webkit-linear-gradient(top , #6fa9ff 0%, #287bf7 100%);
+	background-image: -ms-linear-gradient(top , #6fa9ff 0%, #287bf7 100%);
+	background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #6fa9ff), color-stop(1, #287bf7));
+	box-shadow: 0 2px 0px #3b9238 inset;
+		-moz-box-shadow: 0 1px 3px #287bf7 inset;
+		-webkit-box-shadow: 0 1px 3px #287bf7 inset;
+	color: #f9fbff;
+}
