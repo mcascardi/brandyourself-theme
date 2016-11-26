@@ -1,5 +1,5 @@
 body {
-	background: url(/themes/default/professional/images/bg.png) repeat top center;
+	background: url(/img/bg.png) repeat top center;
 }
 
 hr {
@@ -14,7 +14,8 @@ hr {
 }
 
 #header {
-	background: url(/themes/default/professional/images/navBg.jpg) repeat top center;
+    background: #333;
+    /* background: url(/img/navBg.jpg) repeat top center; */
 	box-shadow: 0 1px 3px #333;
 	-moz-box-shadow: 0 1px 3px #333;
 	-webkit-box-shadow: 0 1px 3px #333;
@@ -176,22 +177,22 @@ hr {
 
 #sideBarInfo > ul > li.facebook {
 	padding-left: 20px;
-	background: url(/themes/default/creative/images/iconFacebook.png) no-repeat 0px 7px;
+	background: url(../img/iconFacebook.png) no-repeat 0px 7px;
 }
 
 #sideBarInfo > ul > li.linkedin {
 	padding-left: 20px;
-	background: url(/themes/default/creative/images/iconLinkedIn.png) no-repeat 0px 7px;
+	background: url(../img/iconLinkedIn.png) no-repeat 0px 7px;
 }
 
 #sideBarInfo > ul > li.twitter {
 	padding-left: 20px;
-	background: url(/themes/default/creative/images/iconTwitter.png) no-repeat 0px 7px;
+	background: url(../img/iconTwitter.png) no-repeat 0px 7px;
 }
 
 #sideBarInfo > ul > li.googleplus {
 	padding-left: 20px;
-	background: url(/themes/default/creative/images/iconGooglePlus.png) no-repeat 0px 7px;
+	background: url(../img/iconGooglePlus.png) no-repeat 0px 7px;
 }
 
 
@@ -239,15 +240,15 @@ hr {
 	margin: 8px 0;
 }
 
-.contactInfo > ul > li.emailWrapper { background: url(/themes/default/creative/images/iconEmail.png) no-repeat 0px 0px; }
-.contactInfo > ul > li.tel { background: url(/themes/default/creative/images/iconPhone.png) no-repeat 0px 0px; }
-.contactInfo > ul > li.adr { background: url(/themes/default/creative/images/iconPlace.png) no-repeat 0px 0px; }
-.contactInfo > ul > li.dl    { background: url(/themes/default/creative/images/iconDownload.png) no-repeat 0px 3px; line-height: 22px; font-size: 14px; }
+.contactInfo > ul > li.emailWrapper { background: url(../img/iconEmail.png) no-repeat 0px 0px; }
+.contactInfo > ul > li.tel { background: url(../img/iconPhone.png) no-repeat 0px 0px; }
+.contactInfo > ul > li.adr { background: url(../img/iconPlace.png) no-repeat 0px 0px; }
+.contactInfo > ul > li.dl    { background: url(../img/iconDownload.png) no-repeat 0px 3px; line-height: 22px; font-size: 14px; }
 
-#socialNetworks > ul > li.facebook { padding-left: 20px; background: url(/themes/default/creative/images/iconFacebook.png) no-repeat 0px 0px; }
-#socialNetworks > ul > li.linkedin { padding-left: 20px; background: url(/themes/default/creative/images/iconLinkedIn.png) no-repeat 0px 0px; }
-#socialNetworks > ul > li.twitter { padding-left: 20px; background: url(/themes/default/creative/images/iconTwitter.png) no-repeat 0px 0px; }
-#socialNetworks > ul > li.googleplus { padding-left: 20px; background: url(/themes/default/creative/images/iconGooglePlus.png) no-repeat 0px 0px; }
+#socialNetworks > ul > li.facebook { padding-left: 20px; background: url(../img/iconFacebook.png) no-repeat 0px 0px; }
+#socialNetworks > ul > li.linkedin { padding-left: 20px; background: url(../img/iconLinkedIn.png) no-repeat 0px 0px; }
+#socialNetworks > ul > li.twitter { padding-left: 20px; background: url(../img/iconTwitter.png) no-repeat 0px 0px; }
+#socialNetworks > ul > li.googleplus { padding-left: 20px; background: url(../img/iconGooglePlus.png) no-repeat 0px 0px; }
 
 /* -------- WELCOME PAGE -------- */
 #welcome {
@@ -457,53 +458,53 @@ hr {
 	margin-left: 0;
 }
 
-#linksOther > ul > li.aboutme       { background: url(/themes/default/images/icon-aboutme_16.png) no-repeat 0px 5px; }
-#linksOther > ul > li.bigsight      { background: url(/themes/default/images/icon-bigsight_16.png) no-repeat 0px 5px; }
-#linksOther > ul > li.bizcard2      { background: url(/themes/default/images/icon-bizcard2_16.png) no-repeat 0px 5px; }
-#linksOther > ul > li.blinklist     { background: url(/themes/default/images/icon-blinklist_16.png) no-repeat 0px 5px; }
-#linksOther > ul > li.blogger       { background: url(/themes/default/images/icon-blogger_16.png) no-repeat 0px 5px; }
-#linksOther > ul > li.classmates    { background: url(/themes/default/images/icon-classmates_16.png) no-repeat 0px 5px; }
-#linksOther > ul > li.dailybooth    { background: url(/themes/default/images/icon-dailybooth_16.png) no-repeat 0px 5px; }
-#linksOther > ul > li.dailymotion   { background: url(/themes/default/images/icon-dailymotion_16.png) no-repeat 0px 5px; }
-#linksOther > ul > li.delicious     { background: url(/themes/default/images/icon-delicious_16.png) no-repeat 0px 5px; }
-#linksOther > ul > li.digg          { background: url(/themes/default/images/icon-digg_16.png) no-repeat 0px 5px; }
-#linksOther > ul > li.diigo         { background: url(/themes/default/images/icon-diigo_16.png) no-repeat 0px 5px; }
-#linksOther > ul > li.facebook      { background: url(/themes/default/images/icon-facebook_16.png) no-repeat 0px 5px; }
-#linksOther > ul > li.flavorsme     { background: url(/themes/default/images/icon-flavorsme_16.png) no-repeat 0px 5px; }
-#linksOther > ul > li.flickr        { background: url(/themes/default/images/icon-flickr_16.png) no-repeat 0px 5px; }
-#linksOther > ul > li.formspring    { background: url(/themes/default/images/icon-formspring_16.png) no-repeat 0px 5px; }
-#linksOther > ul > li.fotolog       { background: url(/themes/default/images/icon-fotolog_16.png) no-repeat 0px 5px; }
-#linksOther > ul > li.foursquare    { background: url(/themes/default/images/icon-foursquare_16.png) no-repeat 0px 5px; }
-#linksOther > ul > li.friendster    { background: url(/themes/default/images/icon-friendster_16.png) no-repeat 0px 5px; }
-#linksOther > ul > li.googleplus    { background: url(/themes/default/images/icon-googlePlus_16.png) no-repeat 0px 5px; }
-#linksOther > ul > li.hunch         { background: url(/themes/default/images/icon-hunch_16.png) no-repeat 0px 5px; }
-#linksOther > ul > li.linkedin      { background: url(/themes/default/images/icon-linkedin_16.png) no-repeat 0px 5px; }
-#linksOther > ul > li.lookuppage    { background: url(/themes/default/images/icon-lookuppage_16.png) no-repeat 0px 5px; }
-#linksOther > ul > li.meetup        { background: url(/themes/default/images/icon-meetup_16.png) no-repeat 0px 5px; }
-#linksOther > ul > li.naymz         { background: url(/themes/default/images/icon-naymz_16.png) no-repeat 0px 5px; }
-#linksOther > ul > li.other         { background: url(/themes/default/images/icon-globe_16.png) no-repeat 0px 5px; }
-#linksOther > ul > li.penio         { background: url(/themes/default/images/icon-penio_16.png) no-repeat 0px 5px; }
-#linksOther > ul > li.picasa        { background: url(/themes/default/images/icon-picasa_16.png) no-repeat 0px 5px; }
-#linksOther > ul > li.posterous     { background: url(/themes/default/images/icon-posterous_16.png) no-repeat 0px 5px; }
-#linksOther > ul > li.quora         { background: url(/themes/default/images/icon-quora_16.png) no-repeat 0px 5px; }
-#linksOther > ul > li.reddit        { background: url(/themes/default/images/icon-reddit_16.png) no-repeat 0px 5px; }
-#linksOther > ul > li.slideshare    { background: url(/themes/default/images/icon-slideshare_16.png) no-repeat 0px 5px; }
-#linksOther > ul > li.squidoo       { background: url(/themes/default/images/icon-squidoo_16.png) no-repeat 0px 5px; }
-#linksOther > ul > li.stumbleupon   { background: url(/themes/default/images/icon-stumbleupon_16.png) no-repeat 0px 5px; }
-#linksOther > ul > li.tumblr        { background: url(/themes/default/images/icon-tumblr_16.png) no-repeat 0px 5px; }
-#linksOther > ul > li.twitter       { background: url(/themes/default/images/icon-twitter_16.png) no-repeat 0px 5px; }
-#linksOther > ul > li.webshots      { background: url(/themes/default/images/icon-webshots_16.png) no-repeat 0px 5px; }
-#linksOther > ul > li.weebly        { background: url(/themes/default/images/icon-weebly_16.png) no-repeat 0px 5px; }
-#linksOther > ul > li.whitepages    { background: url(/themes/default/images/icon-whitepages_16.png) no-repeat 0px 5px; }
-#linksOther > ul > li.wordpress     { background: url(/themes/default/images/icon-wordpress_16.png) no-repeat 0px 5px; }
-#linksOther > ul > li.xing          { background: url(/themes/default/images/icon-xing_16.png) no-repeat 0px 5px; }
-#linksOther > ul > li.yellowpages   { background: url(/themes/default/images/icon-yellowpages_16.png) no-repeat 0px 5px; }
-#linksOther > ul > li.youtube       { background: url(/themes/default/images/icon-youtube_16.png) no-repeat 0px 5px; }
-#linksOther > ul > li.zerply        { background: url(/themes/default/images/icon-zerply_16.png) no-repeat 0px 5px; }
-#linksOther > ul > li.zoominfo      { background: url(/themes/default/images/icon-zoominfo_16.png) no-repeat 0px 5px; }
-#linksOther > ul > li.vizify        { background: url(/themes/default/images/icon-vizify_16.png) no-repeat 0px 5px; }
-#linksOther > ul > li.vimeo         { background: url(/themes/default/images/icon-vimeo_16.png) no-repeat 0px 5px; }
-#linksOther > ul > li.brandyourself { background: url(/themes/default/images/favicon.png) no-repeat 0px 5px; }
+#linksOther > ul > li.aboutme       { background: url(../img/icon-aboutme_16.png) no-repeat 0px 5px; }
+#linksOther > ul > li.bigsight      { background: url(../img/icon-bigsight_16.png) no-repeat 0px 5px; }
+#linksOther > ul > li.bizcard2      { background: url(../img/icon-bizcard2_16.png) no-repeat 0px 5px; }
+#linksOther > ul > li.blinklist     { background: url(../img/icon-blinklist_16.png) no-repeat 0px 5px; }
+#linksOther > ul > li.blogger       { background: url(../img/icon-blogger_16.png) no-repeat 0px 5px; }
+#linksOther > ul > li.classmates    { background: url(../img/icon-classmates_16.png) no-repeat 0px 5px; }
+#linksOther > ul > li.dailybooth    { background: url(../img/icon-dailybooth_16.png) no-repeat 0px 5px; }
+#linksOther > ul > li.dailymotion   { background: url(../img/icon-dailymotion_16.png) no-repeat 0px 5px; }
+#linksOther > ul > li.delicious     { background: url(../img/icon-delicious_16.png) no-repeat 0px 5px; }
+#linksOther > ul > li.digg          { background: url(../img/icon-digg_16.png) no-repeat 0px 5px; }
+#linksOther > ul > li.diigo         { background: url(../img/icon-diigo_16.png) no-repeat 0px 5px; }
+#linksOther > ul > li.facebook      { background: url(../img/icon-facebook_16.png) no-repeat 0px 5px; }
+#linksOther > ul > li.flavorsme     { background: url(../img/icon-flavorsme_16.png) no-repeat 0px 5px; }
+#linksOther > ul > li.flickr        { background: url(../img/icon-flickr_16.png) no-repeat 0px 5px; }
+#linksOther > ul > li.formspring    { background: url(../img/icon-formspring_16.png) no-repeat 0px 5px; }
+#linksOther > ul > li.fotolog       { background: url(../img/icon-fotolog_16.png) no-repeat 0px 5px; }
+#linksOther > ul > li.foursquare    { background: url(../img/icon-foursquare_16.png) no-repeat 0px 5px; }
+#linksOther > ul > li.friendster    { background: url(../img/icon-friendster_16.png) no-repeat 0px 5px; }
+#linksOther > ul > li.googleplus    { background: url(../img/icon-googlePlus_16.png) no-repeat 0px 5px; }
+#linksOther > ul > li.hunch         { background: url(../img/icon-hunch_16.png) no-repeat 0px 5px; }
+#linksOther > ul > li.linkedin      { background: url(../img/icon-linkedin_16.png) no-repeat 0px 5px; }
+#linksOther > ul > li.lookuppage    { background: url(../img/icon-lookuppage_16.png) no-repeat 0px 5px; }
+#linksOther > ul > li.meetup        { background: url(../img/icon-meetup_16.png) no-repeat 0px 5px; }
+#linksOther > ul > li.naymz         { background: url(../img/icon-naymz_16.png) no-repeat 0px 5px; }
+#linksOther > ul > li.other         { background: url(../img/icon-globe_16.png) no-repeat 0px 5px; }
+#linksOther > ul > li.penio         { background: url(../img/icon-penio_16.png) no-repeat 0px 5px; }
+#linksOther > ul > li.picasa        { background: url(../img/icon-picasa_16.png) no-repeat 0px 5px; }
+#linksOther > ul > li.posterous     { background: url(../img/icon-posterous_16.png) no-repeat 0px 5px; }
+#linksOther > ul > li.quora         { background: url(../img/icon-quora_16.png) no-repeat 0px 5px; }
+#linksOther > ul > li.reddit        { background: url(../img/icon-reddit_16.png) no-repeat 0px 5px; }
+#linksOther > ul > li.slideshare    { background: url(../img/icon-slideshare_16.png) no-repeat 0px 5px; }
+#linksOther > ul > li.squidoo       { background: url(../img/icon-squidoo_16.png) no-repeat 0px 5px; }
+#linksOther > ul > li.stumbleupon   { background: url(../img/icon-stumbleupon_16.png) no-repeat 0px 5px; }
+#linksOther > ul > li.tumblr        { background: url(../img/icon-tumblr_16.png) no-repeat 0px 5px; }
+#linksOther > ul > li.twitter       { background: url(../img/icon-twitter_16.png) no-repeat 0px 5px; }
+#linksOther > ul > li.webshots      { background: url(../img/icon-webshots_16.png) no-repeat 0px 5px; }
+#linksOther > ul > li.weebly        { background: url(../img/icon-weebly_16.png) no-repeat 0px 5px; }
+#linksOther > ul > li.whitepages    { background: url(../img/icon-whitepages_16.png) no-repeat 0px 5px; }
+#linksOther > ul > li.wordpress     { background: url(../img/icon-wordpress_16.png) no-repeat 0px 5px; }
+#linksOther > ul > li.xing          { background: url(../img/icon-xing_16.png) no-repeat 0px 5px; }
+#linksOther > ul > li.yellowpages   { background: url(../img/icon-yellowpages_16.png) no-repeat 0px 5px; }
+#linksOther > ul > li.youtube       { background: url(../img/icon-youtube_16.png) no-repeat 0px 5px; }
+#linksOther > ul > li.zerply        { background: url(../img/icon-zerply_16.png) no-repeat 0px 5px; }
+#linksOther > ul > li.zoominfo      { background: url(../img/icon-zoominfo_16.png) no-repeat 0px 5px; }
+#linksOther > ul > li.vizify        { background: url(../img/icon-vizify_16.png) no-repeat 0px 5px; }
+#linksOther > ul > li.vimeo         { background: url(../img/icon-vimeo_16.png) no-repeat 0px 5px; }
+#linksOther > ul > li.brandyourself { background: url(../img/favicon.png) no-repeat 0px 5px; }
 
 
 .box > a {
@@ -681,7 +682,7 @@ hr {
 }
 
 #socialStreams > li > .streamIcon > div { display: block; width: 30px; height: 30px; }
-#socialStreams > li > .facebook > div { background: url(/themes/default/creative/images/iconFacebook30.png) no-repeat center center; }
-#socialStreams > li > .flickr   > div { background: url(/themes/default/creative/images/iconFlickr30.png) no-repeat center center; }
-#socialStreams > li > .linkedin > div { background: url(/themes/default/creative/images/iconLinkedin30.png) no-repeat center center; }
-#socialStreams > li > .twitter  > div { background: url(/themes/default/creative/images/iconTwitter30.png) no-repeat center center; }
+#socialStreams > li > .facebook > div { background: url(../img/iconFacebook30.png) no-repeat center center; }
+#socialStreams > li > .flickr   > div { background: url(../img/iconFlickr30.png) no-repeat center center; }
+#socialStreams > li > .linkedin > div { background: url(../img/iconLinkedin30.png) no-repeat center center; }
+#socialStreams > li > .twitter  > div { background: url(../img/iconTwitter30.png) no-repeat center center; }

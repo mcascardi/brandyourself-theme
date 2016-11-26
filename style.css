@@ -93,11 +93,11 @@ table {
 	margin-top: 13px;
 	width: 166px;
 	height: 33px;
-	background: url('/themes/default/images/freeProfileButton.png');
+	background: url('/img/freeProfileButton.png');
 }
 
 #newTopAd > .inner > a:hover {
-	background: url('/themes/default/images/freeProfileButtonOver.png');
+	background: url('/img/freeProfileButtonOver.png');
 }
 
 #topAd, #bottomAd {
@@ -136,7 +136,7 @@ table {
 
 #adDropDown {
 	display: none;
-	background: url(/themes/default/images/adDownBackground.gif) repeat-x;
+	background: url(/img/adDownBackground.gif) repeat-x;
 	height: 45px;
 	line-height: 45px;
 	font-size: 14px;
@@ -170,7 +170,7 @@ table {
 }
 #upgradeClose {
 	cursor: pointer;
-	background: url(/themes/default/images/close.png) no-repeat 0px 12px;
+	background: url(/img/close.png) no-repeat 0px 12px;
 	height: 35px;
 	width: 30px;
 	display: inline-block;
