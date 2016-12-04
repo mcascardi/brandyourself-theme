@@ -33,3 +33,5 @@ function theme_path()
     return get_stylesheet_directory();
 }
 
+register_nav_menu('main-nav');
+

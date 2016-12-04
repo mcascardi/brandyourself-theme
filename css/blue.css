@@ -17,7 +17,7 @@ html {
 	color: #4da7ff;
 }
 
-#nav > li.current > a {
+#nav > li.current-menu-item > a {
 	background-color: #0a81fb;
 }
 

@@ -19,10 +19,11 @@
     <link rel="shortcut icon" href="favicon.ico" />
   </head>
   <body>
+
     <div id="header">
-      <ul id="nav">
-	<li class="current"><a href="/">Profile</a></li><li><a href="http://photos.mattcascardi.com/">Photography</a></li><li><a href="http://blog.mattcascardi.com">Blog</a></li>			
-      </ul>
+
+	<?php wp_nav_menu(array('menu' => 'main-nav', 'menu_id' => 'nav')); ?>
+
     </div>
     <div id="wrapper">
       <div class="vcard">
@@ -53,8 +54,10 @@
 	  </div>
 	</div>	<div class="mainContent">
 	  <div id="about">
+	<?php // the_title(); ?>
 	    <h1 class="fn">Matt Cascardi</h1>
-	    <h2>Matt Cascardi:  Web Developer, Server Administrator, and Bassist</h2>
+	    <?php the_content(); ?>
+            <h2>Matt Cascardi:  Web Developer, Server Administrator, and Bassist</h2>
 	    <hr>
 	    <p>Matt Cascardi was born and raised in Oakland, CA.  From an early age his parents started him in music lessons on violin and piano.  This began a lifelong love for music and the craft of playing an instrument that Matt fuels to this day.  At Montera Middle School he began playing tenor saxophone, and continued it through the jazz band at St. Mary's College High School.  During that time Matt became interested in playing bass and has gone on to becoming the bassist for 4 bands, 2 of which are still active.</p>&#13;
 <p><span style="line-height: 1.5em;">Matthew's other interests have been centered around computers and technology.  He has professional experience with website design and maintenance, as well as server administration. Specialties include standards-compliant design, CMS administration, and web-related technical support.</span></p>		</div>
