@@ -59,7 +59,7 @@ hr {
 }
 
 #wrapper {
-	width: 960px;
+	width: 1000px;
 	margin: 0px auto;
 	padding: 45px;
 }
@@ -120,19 +120,15 @@ hr {
 		-webkit-box-shadow: 0 2px 3px rgba(0, 0, 0, 0.4);
 }
 
-#sideBar {
-	float: left;
-	width: 230px;
-}
 
 #sideBarInfo {
-	margin-top: 30px;
+	float: left;
+	width: 250px;
 	border-radius: 5px;
 		-moz-border-radius: 5px;
 		-webkit-border-radius: 5px;
 	background-color: rgba(0, 0, 0, 0.5);
 	padding: 25px 0 10px 20px ;
-	width: 210px;
 }
 
 #sideBarInfo > h2 > a {
@@ -196,6 +192,9 @@ hr {
 	background: url(../img/iconGooglePlus.png) no-repeat 0px 7px;
 }
 
+#sideBarInfo > .widget-area {
+    margin-top: 30px;
+}
 
 /* ---------- FOOTER ---------- */
 #footer {
