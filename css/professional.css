@@ -1,30 +1,30 @@
 body {
-	background: url(../img/bg.png) repeat top center;
-        margin: 0;
+    background: url(../img/bg.png) repeat top center;
+    margin: 0;
 }
 
 hr {
-	border: 0;
-	height: 1px;
-	background-color: #dedede;
-	margin: 30px 0;
+    border: 0;
+    height: 1px;
+    background-color: #dedede;
+    margin: 30px 0;
 }
 
-.clear { 
+.clear {
 	clear: both;
 }
 
 #header {
     background: #333;
     background: url(../img/navBg.jpg) repeat top center;
-	box-shadow: 0 1px 3px #333;
-	-moz-box-shadow: 0 1px 3px #333;
-	-webkit-box-shadow: 0 1px 3px #333;
-	text-align: left; 
-	padding: 21px 0px;
+    box-shadow: 0 1px 3px #333;
+    -moz-box-shadow: 0 1px 3px #333;
+    -webkit-box-shadow: 0 1px 3px #333;
+    text-align: left;
+    padding: 21px 0px;
 }
 
-#nav { 
+#nav {
 	display: block;
 	margin: 0 auto;
 	padding: 0 60px;
@@ -65,7 +65,22 @@ hr {
 }
 
 .mainContent, #mainContent {
-	width: 630px;
+    width: 630px;
+	float: right;
+	background-color: #fcfcfc;
+	border-radius: 3px;
+		-moz-border-radius: 3px;
+		-webkit-border-radius: 3px;
+	box-shadow: 0 1px 3px #333;
+		-moz-box-shadow: 0 1px 3px #333;
+		-webkit-box-shadow: 0 1px 3px #333;
+	padding: 30px 40px;
+	margin-bottom: 30px;
+}
+
+.mainContentFullwidth, #mainContentFullwidth {
+
+	width: 100%;
 	float: right;
 	background-color: #fcfcfc;
 	border-radius: 3px;
@@ -169,7 +184,7 @@ hr {
 
 #sideBarInfo > ul > li {
 	font-size: 14px;
-	line-height: 30px;	
+	line-height: 30px;
 }
 
 #sideBarInfo > ul > li.facebook {
@@ -198,16 +213,18 @@ hr {
 
 /* ---------- FOOTER ---------- */
 #footer {
-	background: url(../img/navBg.jpg) repeat top center;
-	box-shadow:		 	0px 1px 6px -3px rgba(255, 255, 255, 0.25) inset, 0px 80px 80px -40px rgba(255, 255, 255, 0.1) inset;
-	-moz-box-shadow:	0px 1px 6px -3px rgba(255, 255, 255, 0.25) inset, 0px 80px 80px -40px rgba(255, 255, 255, 0.1) inset;
-	-webkit-box-shadow: 0px 1px 6px -3px rgba(255, 255, 255, 0.25) inset, 0px 80px 80px -40px rgba(255, 255, 255, 0.1) inset;
-	padding: 35px 0px 60px;
-	min-height: 105px;
+    background: url(../img/navBg.jpg) repeat top center;
+    box-shadow:		 	0px 1px 6px -3px rgba(255, 255, 255, 0.25) inset, 0px 80px 80px -40px rgba(255, 255, 255, 0.1) inset;
+    -moz-box-shadow:	0px 1px 6px -3px rgba(255, 255, 255, 0.25) inset, 0px 80px 80px -40px rgba(255, 255, 255, 0.1) inset;
+    -webkit-box-shadow: 0px 1px 6px -3px rgba(255, 255, 255, 0.25) inset, 0px 80px 80px -40px rgba(255, 255, 255, 0.1) inset;
+    padding: 35px 0px 60px;
+    margin-top: 2rem;
+    min-height: 105px;
+    clear:both;
 }
 
 #footer a {
-	text-decoration: none; 
+	text-decoration: none;
 }
 
 #footerCenter {
@@ -249,6 +266,17 @@ hr {
 #socialNetworks > ul > li.linkedin { padding-left: 20px; background: url(../img/iconLinkedIn.png) no-repeat 0px 0px; }
 #socialNetworks > ul > li.twitter { padding-left: 20px; background: url(../img/iconTwitter.png) no-repeat 0px 0px; }
 #socialNetworks > ul > li.googleplus { padding-left: 20px; background: url(../img/iconGooglePlus.png) no-repeat 0px 0px; }
+
+
+#topAd, #bottomAd {
+    background-color: #2e3133;
+    height: 42px;
+    line-height: 42px;
+    text-align: center;
+    color: #fff;
+    font-size: 13px;
+    width: 100%;
+}
 
 /* -------- WELCOME PAGE -------- */
 #welcome {
@@ -296,7 +324,7 @@ hr {
 }
 
 #welcome > h3, #welcomeWithPhoto > h3 {
-	font-size: 16px;	
+	font-size: 16px;
 }
 
 #welcomeWithPhoto > h1, #welcomeWithPhoto > h2, #welcomeWithPhoto > h3 {
@@ -318,8 +346,6 @@ hr {
 }
 
 #about > h1 {
-	font-size: 67px;
-	line-height: 67px;
 	font-weight: bold;
 	margin-bottom: 20px;
 	color: #353535;
@@ -345,7 +371,6 @@ hr {
 }
 
 #experience > h2, #education > h2, #interests > h2 {
-	font-size: 28px;
 	font-weight: bold;
 	margin-bottom: 20px;
 }
@@ -365,13 +390,13 @@ hr {
 	margin-bottom: 4px;
 }
 
-#education > h5 { 
+#education > h5 {
 	color: #737373;
 	font-size: 15px;
 	margin-bottom: 10px;
 }
 
-#education > p { 
+#education > p {
 	margin-bottom: 10px;
 	color: #676767;
 }
@@ -399,12 +424,12 @@ hr {
 	margin-bottom: 4px;
 }
 
-#experience > h4 { 
+#experience > h4 {
 	font-size: 18px;
 	margin-bottom: 10px;
 }
 
-#experience > h5 { 
+#experience > h5 {
 	color: #a2a2a2;
 	font-size: 15px;
 	margin-bottom: 20px;
@@ -437,7 +462,7 @@ hr {
 		-moz-box-shadow: 0 1px 3px #333;
 		-webkit-box-shadow: 0 1px 3px #333;
 	padding: 30px;
-	margin-bottom: 30px;	
+	margin-bottom: 30px;
 }
 
 #linksProfiles > ul > li {
@@ -478,7 +503,7 @@ hr {
 #linksOther > ul > li.friendster    { background: url(../img/icon-friendster_16.png) no-repeat 0px 5px; }
 #linksOther > ul > li.googleplus    { background: url(../img/icon-googlePlus_16.png) no-repeat 0px 5px; }
 #linksOther > ul > li.hunch         { background: url(../img/icon-hunch_16.png) no-repeat 0px 5px; }
-#linksOther > ul > li.linkedin      { background: url(../img/icon-linkedin_16.png) no-repeat 0px 5px; }
+#linksOther > ul > li.linkedin, ul#menu-social-network-links > li.linkedin      { background: url(../img/icon-linkedin_16.png) no-repeat 0px 5px; }
 #linksOther > ul > li.lookuppage    { background: url(../img/icon-lookuppage_16.png) no-repeat 0px 5px; }
 #linksOther > ul > li.meetup        { background: url(../img/icon-meetup_16.png) no-repeat 0px 5px; }
 #linksOther > ul > li.naymz         { background: url(../img/icon-naymz_16.png) no-repeat 0px 5px; }
@@ -514,7 +539,7 @@ hr {
 }
 
 .box > em {
-	font-style: normal;	
+	font-style: normal;
 }
 
 #linksOther > ul > li {
@@ -548,7 +573,7 @@ hr {
 #blogPosts > ul > li > h2 > a {
 	color: #508BFB;
 	font-size: 20px;
-	line-height: 33px;	
+	line-height: 33px;
 }
 
 .blogUnderwrite {
@@ -569,7 +594,7 @@ hr {
 	font-size: 28px;
 	font-weight: normal;
 	line-height: 33px;
-	margin: 0 0 4px;	
+	margin: 0 0 4px;
 }
 
 #blogPost > h2 {
@@ -667,7 +692,7 @@ hr {
 	color: #4E4E4E;
 	display: block;
 	float: right;
-	font-size: 12px;	
+	font-size: 12px;
 }
 
 .streamContent > .post {
@@ -678,7 +703,7 @@ hr {
 	font-size: 14px;
 	line-height: 17px;
 	margin: 10px 0;
-	padding: 8px;	
+	padding: 8px;
 }
 
 #socialStreams > li > .streamIcon > div { display: block; width: 30px; height: 30px; }

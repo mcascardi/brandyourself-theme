@@ -13,8 +13,10 @@
 
 get_header(); ?>
 
-	<div id="primary" class="content-area">
-		<main id="main" class="site-main" role="main">
+	<div id="wrapper" class="content-area">
+                <?php get_sidebar(); ?>
+  
+		<main id="main" class="mainContent" role="main">
 
 		<?php
 		// Start the loop.
