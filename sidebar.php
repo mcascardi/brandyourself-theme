@@ -11,9 +11,6 @@ if ( has_nav_menu( 'primary' ) || has_nav_menu( 'social' ) || is_active_sidebar(
 ?>
     <div class="vcard">
         <div id="sideBarInfo">
-	    <div id="portrait">
-		<img src="http://user.photos.s3.amazonaws.com/user_18691.jpg" alt="Matt Cascardi" class="photo">
-	    </div>
 
 	    <?php
 	    if ( is_active_sidebar( 'left_sidebar' ) ) {
