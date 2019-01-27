@@ -11,7 +11,7 @@
         <?php get_sidebar( 'left' ); ?>
 
         <div class="mainContent">
-         <h1><?php _e('Sorry This Page Does Not Exist!','devdmbootstrap3'); ?></h1>
+         <h1><?php _e('Sorry This Page Does Not Exist!', 'brandyourself'); ?></h1>
         </div>
 
         <?php //get the right sidebar ?>

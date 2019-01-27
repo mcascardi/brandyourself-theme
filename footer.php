@@ -18,7 +18,7 @@
     </div>
 </div>
 <div id="bottomAd">
-   <?php printf(__('Website Design &copy; 2016 %s', 'brandyourself-theme'), 'Matt Cascardi'); ?>
+   <?php printf(__('Website Design &copy; 2016 %s', 'brandyourself'), 'Matt Cascardi'); ?>
 </div>
 <?php wp_footer(); ?>
   </body>
