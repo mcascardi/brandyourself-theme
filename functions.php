@@ -8,8 +8,8 @@ function brandyourself_theme_setup() {
   add_theme_support( 'title-tag' );
 
   $nav_locations = array(
-			 'primary' => __( 'Primary Menu',      'twentyfifteen' ),
-			 'social'  => __( 'Social Links Menu', 'twentyfifteen' ),
+			 'primary' => __( 'Primary Menu',      'brandyourself' ),
+			 'social'  => __( 'Social Links Menu', 'brandyourself' ),
 			 );
   // This theme uses wp_nav_menu() in two locations.
   register_nav_menus( $nav_locations );
